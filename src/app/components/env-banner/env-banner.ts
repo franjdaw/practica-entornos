@@ -13,5 +13,5 @@ export class EnvBannerComponent {
   welcomeMessage = '¡Bienvenido al sistema de gestión de entornos!';
   
   // Cambia esto según la rama: 'production', 'qa' o 'uat'
-  currentEnv: 'production' | 'qa' | 'uat' = 'uat';
+  currentEnv: 'production' | 'qa' | 'uat' = 'production';
 }
