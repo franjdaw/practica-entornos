@@ -12,6 +12,6 @@ export class EnvBannerComponent {
   appName = 'Práctica Despliegues - Release Manager';
   welcomeMessage = '¡Bienvenido al sistema de gestión de entornos!';
   
-  // Cambia esto según la rama: 'production', 'qa' o 'uat'
+  // Cambia esto según la rama: 'production', 'qa' o 'uat'a
   currentEnv: 'production' | 'qa' | 'uat' = 'uat';
 }
