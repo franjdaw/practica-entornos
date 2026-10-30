@@ -1,0 +1,9 @@
+<div class="env-banner" [ngClass]="currentEnv">
+  <h1>{{ appName }}</h1>
+  <p class="welcome-msg">{{ welcomeMessage }}</p>
+  
+  <div class="env-badge">
+    <span class="label">Entorno Actual:</span>
+    <span class="value">{{ currentEnv | uppercase }}</span>
+  </div>
+</div>
